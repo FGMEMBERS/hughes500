@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+    <model>
+      <livery>
+        <name type="string">Christchurch Helicopters</name>
+     <texture-fuselage>liveries/CH/MD500_1_t.jpg</texture-fuselage>
+     <texture-tail>liveries/CH/MD500_3_t.jpg</texture-tail>
+	 <texture-rotor>liveries/CH/main rotor still.jpg</texture-rotor>
+	 <texture-tailrotor>liveries/CH/tail rotor still.jpg</texture-tailrotor>
+     <texture-seat>liveries/CH/Seat.jpg</texture-seat>
+	 <texture-skids>liveries/CH/skids.jpg</texture-skids>
+	 <texture-dome>liveries/CH/RotorDome_t.jpg</texture-dome>
+   <specular>
+              <red>   0.3 </red>
+              <green> 0.3 </green>
+              <blue>  0.3 </blue>
+            </specular>
+
+            <emission>
+              <red>   0.2 </red>
+              <green> 0.2 </green>
+              <blue>  0.2 </blue>
+            </emission>
+
+      </livery>
+    </model>
+  </sim>
+
+</PropertyList>

@@ -1,0 +1,432 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+	
+
+	
+
+	<model>
+		<name>TACH</name>
+		<path>Aircraft/hughes500/Instruments/tach/tach.xml</path>
+		<offsets>
+			<x-m>-1.4978</x-m>
+			<y-m>-0.0935</y-m>
+			<z-m>0.4815</z-m>
+		</offsets>
+	</model>
+	
+
+
+	<model>
+		<name>ASI</name>
+		<path>Aircraft/hughes500/Instruments/asi/asi.xml</path>
+		<offsets>
+			<x-m>-1.4978</x-m>
+			<y-m>-0.0935</y-m>
+			<z-m>0.57</z-m>
+		</offsets>
+		
+	</model>
+
+	<model>
+		<name>AI</name>
+		<path>Aircraft/Instruments-3d/ai/ai.xml</path>
+		<offsets>
+			<x-m>-1.4977</x-m>
+			<y-m>-0.009</y-m>
+			<z-m>0.5725</z-m>
+		</offsets>
+		
+	</model>
+
+	<model>
+		<name>ALT</name>
+		<path>Aircraft/Instruments-3d/alt/alt.xml</path>
+		<offsets>
+		<x-m>-1.4978</x-m>
+			<y-m>0.076</y-m>
+			<z-m>0.574</z-m>
+		</offsets>
+		
+	</model>
+
+
+
+	<model>
+		<name>TORQUE</name>
+		<path>Aircraft/hughes500/Instruments/torque/torque.xml</path>
+		<offsets>
+			<x-m>-1.496</x-m>
+			<y-m>-0.067</y-m>
+			<z-m>0.408</z-m>
+			<roll-deg>0</roll-deg>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>1</x-offset>
+    <y-offset>0.8</y-offset>
+    <z-offset>0.8</z-offset>
+   </animation>
+  </overlay>
+	</model>
+
+
+	<model>
+		<name>ADF</name>
+		<path>Aircraft/Instruments-3d/adf/adf.xml</path>
+		<offsets>
+				
+			<x-m>-1.495</x-m>
+			<y-m>0.0856</y-m>
+			<z-m>0.397</z-m>
+		</offsets>
+		
+	</model>
+	
+
+	<model>
+		<name>clock</name>
+		<path>Aircraft/Instruments-3d/chronometer/chronometer.xml</path>
+		<offsets>
+			<x-m>-1.4935</x-m>
+			<y-m>-0.005</y-m>
+			<z-m>0.71</z-m>
+		</offsets>
+		<overlay>
+		 <animation n="100">
+    <type>scale</type>
+    <property>constants/zero</property>
+    <x-offset>0.64</x-offset>
+    <y-offset>0.64</y-offset>
+    <z-offset>0.64</z-offset>
+   </animation>
+  </overlay>
+	</model>
+	
+
+	<model>
+		<name>HI</name>
+		<path>Aircraft/Instruments-3d/hi/hi.xml</path>
+		<offsets>
+			<x-m>-1.4965</x-m>
+			<y-m>-0.009</y-m>
+			<z-m>0.486</z-m>
+		</offsets>
+		
+	</model>
+	
+	
+		<model>
+		
+		<path>Aircraft/Instruments-3d/ki206/ki206.xml</path>
+		<offsets>
+			<x-m>-1.496</x-m>
+			<y-m>0.004</y-m>
+			<z-m>0.395</z-m>
+		</offsets>
+		
+	</model>
+
+
+
+	<model>
+		<name>VSI</name>
+		<path>Aircraft/Instruments-3d/vsi/vsi.xml</path>
+		<offsets>
+			<x-m>-1.4965</x-m>
+			<y-m>0.0769</y-m>
+			<z-m>0.484</z-m>
+		</offsets>
+		
+	</model>
+
+
+	
+	
+	
+	<!-- radio satack -->
+	
+	<model>
+		
+		<path>Aircraft/Instruments-3d/kx165/kx165-1.xml</path>
+		<offsets>
+				
+			<x-m>-1.5</x-m>
+			<y-m>-0.0</y-m>
+			<z-m>0.258</z-m>
+		</offsets>
+		
+	</model>
+	
+	
+	<model>
+		
+		<path>Aircraft/Instruments-3d/kx165/kx165-2.xml</path>
+		<offsets>
+				
+			<x-m>-1.5</x-m>
+			<y-m>-0.0</y-m>
+			<z-m>0.2045</z-m>
+		</offsets>
+		
+	</model>
+	
+	<model>
+		
+		<path>Aircraft/Instruments-3d/kt70/kt70.xml</path>
+		<offsets>
+				
+			<x-m>-1.492</x-m>
+			<y-m>-0.0</y-m>
+			<z-m>0.158</z-m>
+		</offsets>
+		
+	</model>
+	
+	<model>
+		<name>ADF</name>
+		<path>Aircraft/Instruments-3d/kr87-adf/kr87.xml</path>
+		<offsets>
+				
+			<x-m>-1.49</x-m>
+			<y-m>-0.0</y-m>
+			<z-m>0.123</z-m>
+		</offsets>
+		
+	</model>
+	
+	
+
+
+<!-- Switches -->
+  
+  <model>
+		<name>Landing lights</name>
+    <path>Aircraft/hughes500/Instruments/switches/landing-lights.xml</path>
+    <offsets> 
+            <x-m>-1.493</x-m>
+			<y-m>-0.1355</y-m>
+			<z-m>0.3105</z-m>
+	  <pitch-deg>0</pitch-deg>
+       <roll-deg>0</roll-deg>
+    </offsets>
+	</model>
+	
+	
+	<animation>
+    <type>select</type>
+    <object-name>LandingLightFlash</object-name>
+    <object-name>LandingLightRemb</object-name>
+    <object-name>LandingLightCone</object-name>
+         
+    <condition>
+      <equals>
+        <property>controls/switches/landing-light</property>
+        <value> 0 </value>
+      </equals>
+    </condition>
+  </animation> 
+  
+  
+  <!-- warning panel ligts -->
+  
+  <!-- Yellow Lights -->
+  
+    <animation>
+  <type>material</type>
+  <object-name>rotor1</object-name>
+   <object-name>rotor2</object-name>
+   <object-name>fuel1</object-name>
+   <object-name>fuel2</object-name>
+    <object-name>press1</object-name>
+   <object-name>press2</object-name>
+  <ambient>
+    <red>0.0</red>
+    <green>0.0</green>
+    <blue>0.0</blue>
+  </ambient>
+  <diffuse>
+    <red>0.1</red>
+    <green>0.1</green>
+    <blue>0.0</blue>
+  </diffuse>
+  <emission>
+    <red>0.8</red>
+    <green>0.8</green>
+    <blue>0.0</blue>
+  </emission> 
+ </animation>
+  
+   <text>
+  <name>rotor1</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.003</character-size>
+  <offsets>
+ 
+			<x-m>-1.501</x-m>
+			<y-m>-0.129</y-m>
+			<z-m>0.633</z-m>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">ROTOR</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+ <text>
+  <name>rotor2</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.0025</character-size>
+  <offsets>
+  <x-m>-1.501</x-m>
+			<y-m>-0.13</y-m>
+			<z-m>0.63</z-m>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">LOW RPM</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+  
+   <animation>
+        <type>select</type>
+        <object-name>rotor1</object-name>
+        <object-name>rotor2</object-name>
+        <condition>
+			<less-than>
+				<property>rotors/main/rpm</property>
+						<value>392</value>
+					</less-than>
+					
+			</condition>
+    </animation>
+	
+	
+	 <text>
+  <name>fuel1</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.003</character-size>
+  <offsets>
+  <x-m>-1.501</x-m>
+  <y-m>-0.101</y-m>
+ <z-m>0.633</z-m>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">FUEL</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+ <text>
+  <name>fuel2</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.003</character-size>
+  <offsets>
+ <x-m>-1.501</x-m>
+  <y-m>-0.101</y-m>
+ <z-m>0.63</z-m>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">LOW</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+ <animation>
+        <type>select</type>
+        <object-name>fuel1</object-name>
+        <object-name>fuel2</object-name>
+        <condition>
+			<less-than>
+				<property>consumables/fuel/total-fuel-lbs</property>
+						<value>150</value>
+					</less-than>
+					
+			</condition>
+    </animation>
+	
+	
+<!-- Red Lights -->
+  
+    <animation>
+  <type>material</type>
+  
+    <object-name>eng1</object-name>
+   <object-name>eng2</object-name>
+  <ambient>
+    <red>0.0</red>
+    <green>0.0</green>
+    <blue>0.0</blue>
+  </ambient>
+  <diffuse>
+    <red>0.1</red>
+    <green>0.0</green>
+    <blue>0.0</blue>
+  </diffuse>
+  <emission>
+    <red>0.8</red>
+    <green>0.0</green>
+    <blue>0.0</blue>
+  </emission> 
+ </animation>	
+	
+	 <text>
+  <name>eng1</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.003</character-size>
+  <offsets>
+ 
+			<x-m>-1.84</x-m>
+			<y-m>0.166</y-m>
+			<z-m>0.389</z-m>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">ENGINE</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+  <text>
+  <name>eng2</name>
+  <font>charter.txf</font>
+  <character-size type="double">0.003</character-size>
+  <offsets>
+  <x-m>-1.84</x-m>
+			<y-m>0.168</y-m>
+			<z-m>0.386</z-m>
+  </offsets>
+  <axis-alignment>yz-plane</axis-alignment>
+  <type type="string">literal</type>
+  <text type="string">OUT</text>
+  <draw-text type="bool">true</draw-text>
+  <alignment>left-top</alignment>
+ </text>
+ 
+ 
+ <animation>
+        <type>select</type>
+        <object-name>eng1</object-name>
+        <object-name>eng2</object-name>
+        <condition>
+			<not>
+				<property>sim/failure-manager/engines/engine/serviceable</property>
+						<value>1</value>
+					</not>	
+				
+					
+			</condition>
+    </animation>
+	
+	
+</PropertyList>
+
+
+

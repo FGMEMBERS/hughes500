@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+    <model>
+      <livery>
+        <name type="string">Red</name>
+     <texture-fuselage>liveries/red/MD500_1_t.jpg</texture-fuselage>
+     <texture-tail>liveries/red/MD500_3_t.jpg</texture-tail>
+	 <texture-rotor>liveries/red/main rotor still.jpg</texture-rotor>
+	 <texture-tailrotor>liveries/red/tail rotor still.jpg</texture-tailrotor>
+     <texture-seat>liveries/red/Seat.jpg</texture-seat>
+	 <texture-skids>liveries/red/skids.jpg</texture-skids>
+	 <texture-dome>liveries/red/RotorDome_t.jpg</texture-dome>
+   <specular>
+              <red>   0.3 </red>
+              <green> 0.3 </green>
+              <blue>  0.3 </blue>
+            </specular>
+
+            <emission>
+              <red>   0.2 </red>
+              <green> 0.2 </green>
+              <blue>  0.2 </blue>
+            </emission>
+
+      </livery>
+    </model>
+  </sim>
+
+</PropertyList>
